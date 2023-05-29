@@ -30,7 +30,7 @@ const MyCart = () => {
                             refetch();
                             Swal.fire(
                                 'Deleted!',
-                                'Your file has been deleted.',
+                                'Your Cart has been deleted.',
                                 'success'
                             )
                         }
@@ -85,7 +85,6 @@ const MyCart = () => {
                                 </td>
                             </tr>)
                         }
-
 
                     </tbody>
                 </table>
