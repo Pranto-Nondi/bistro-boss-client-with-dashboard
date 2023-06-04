@@ -40,7 +40,7 @@ const MyCart = () => {
     }
 
     return (
-        <div className="w-full">
+        <div className="w-full max-h-full">
             <Helmet>
                 <title>Bistro Boss | My Cart</title>
             </Helmet>
