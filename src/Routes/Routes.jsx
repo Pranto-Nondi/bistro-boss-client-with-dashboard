@@ -16,6 +16,7 @@ import AdminRoute from "./AdminRoute";
 import AddItem from "../pages/Dashbaord/AddItem/AddItem";
 import UserHome from "../pages/Dashbaord/UserHome/UserHome";
 import AdminHome from "../pages/Dashbaord/AdminHome/AdminHome";
+import ManageItems from "../pages/Dashbaord/ManageItems/ManageItems";
 
 export const router = createBrowserRouter([
   {
@@ -73,6 +74,10 @@ export const router = createBrowserRouter([
         path: 'addItem',
         element: <AdminRoute><AddItem /></AdminRoute>
       },
+      {
+        path: 'manageitems',
+        element: <AdminRoute><ManageItems /></AdminRoute>
+      }
 
 
     ]

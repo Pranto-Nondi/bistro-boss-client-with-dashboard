@@ -104,7 +104,7 @@ const NavBar = () => {
     };
 
     const renderCartButton = () => {
-        if (user) {
+        if ( !isAdmin && user) {
             return (
                 <li>
                     <Link to="/dashboard/mycart">
@@ -116,6 +116,8 @@ const NavBar = () => {
                 </li>
             );
         }
+        
+    
         return null;
     };
 
